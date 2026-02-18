@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تایید گواهینامه</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #ffffff;
+      font-family: Tahoma, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* لوگو بالا سمت راست */
+    .header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
+    .logo {
+      height: 70px;
+    }
+
+    /* مرکز صفحه */
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .certificate {
+      max-width: 90%;
+      max-height: 70vh;
+      object-fit: contain;
+    }
+
+    .approved-text {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 24px;
+      background-color: #a5f3a1; /* سبز ملایم */
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="logo.png" alt="لوگو" class="logo">
+  </div>
+
+  <div class="container">
+    <img src="certificate.jpg" alt="مدرک" class="certificate">
+    <div class="approved-text">
+      این گواهینامه مورد تایید می باشد
+    </div>
+  </div>
+
+</body>
+</html>
